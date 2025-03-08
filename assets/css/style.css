@@ -1,0 +1,579 @@
+.vpg-admin-heading{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.vpg-form-wrapper{
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #0000002c;
+}
+
+.vpg-note{
+    margin: 60px 0 20px 0;
+}
+
+.vpg-visit-sitemap{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #00000079;
+}
+
+.vpg-how-to-use h4{
+    font-size: 20px;
+    color: #00000079;
+}
+.vpg-how-to-use ul{
+    margin-left: 20px;
+    color: #00000079;
+    font-size: 16px;
+}
+
+/* Template 1 CSS */
+
+@media only screen and (min-width: 1200px) {
+    .ca-vpg-hero .container {
+        max-width: 1320px;
+    }
+
+    .ca-vpg-challenges .container {
+        max-width: 1320px;
+    }
+
+    .ca-vpg-solution .container {
+        max-width: 1320px;
+    }
+
+    .ca-vpg-faq .container {
+        max-width: 1320px;
+    }
+}
+
+.ca-vpg-hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.ca-vpg-hero .ca-vpg-header {
+    font-size: 42px;
+    line-height: 1.3em;
+    margin-bottom: 24px;
+}
+
+.ca-vpg-hero .ca-vpg-subheader {
+    color: #001845;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 1.5em;
+}
+
+.ca-vpg-hero .btn-primary,
+.ca-vpg-solution .btn-primary,
+.ca-vpg-third-party .btn-primary,
+.ca-vpg-faq .btn-primary {
+    background-color: #04a6f4;
+    border-color: #04a6f4;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: 500;
+    line-height: 1.3em;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.ca-vpg-hero .btn-primary:hover,
+.ca-vpg-hero .btn-primary:focus,
+.ca-vpg-hero .btn-primary:active,
+
+.ca-vpg-solution .btn-primary:hover,
+.ca-vpg-solution .btn-primary:focus,
+.ca-vpg-solution .btn-primary:active,
+
+.ca-vpg-third-party .btn-primary:hover,
+.ca-vpg-third-party .btn-primary:focus,
+.ca-vpg-third-party .btn-primary:active,
+
+.ca-vpg-faq .btn-primary:hover,
+.ca-vpg-faq .btn-primary:focus,
+.ca-vpg-faq .btn-primary:active {
+    background-color: #ffffff00 !important;
+    color: #04a6f4 !important;
+    box-shadow: none !important;
+}
+
+.ca-vpg-hero .btn-primary .fas,
+.ca-vpg-solution .btn-primary .fas,
+.ca-vpg-third-party .btn-primary .fas,
+.ca-vpg-faq .btn-primary .fas {
+    font-size: 18px;
+}
+
+.ca-vpg-challenges {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F6F3FE;
+}
+
+.ca-vpg-challenges .ca-vpg-challenges-header {
+    color: #292f36;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+}
+
+.challenges-flex{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.ca-vpg-challenges .ca-vpg-challenges-card {
+    background-color: #FFFFFF;
+    padding: 50px 32px 50px 32px;
+    border-radius: 50px;
+    transition: all .3s;
+    width: 32%;
+}
+
+.ca-vpg-challenges .ca-vpg-challenges-card:hover {
+    border-radius: 20px;
+}
+
+.ca-vpg-challenges .challenges-card-middle {
+    background-color: transparent;
+    background-image: linear-gradient(310deg, #2152FF 0%, #21D4FD 100%);
+}
+
+.ca-vpg-challenges .challenges-card-header {
+    color: #344767;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.ca-vpg-challenges .challenges-card-middle .challenges-card-header {
+    color: #fff;
+}
+
+.ca-vpg-challenges .challenges-card-text {
+    color: #67748E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.ca-vpg-challenges .challenges-card-middle .challenges-card-text {
+    color: #fff;
+}
+
+.ca-vpg-solution {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #fff 0, #fffff5 100%);
+}
+
+.ca-vpg-solution .ca-vpg-solution-header {
+    color: #292f36;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+}
+
+.ca-vpg-solution .solution-title {
+    color: #001845;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.ca-vpg-solution .solution-text {
+    color: #000;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+.ca-vpg-solution img{
+    border-radius: 6px;
+}
+
+.ca-vpg-solution-subheader {
+    color: #272742;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.ca-vpg-third-party {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.third-party-title {
+    color: #292F36;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4;
+    text-align: center;
+    display: block;
+}
+
+.third-party-title span {
+    display: block;
+    color: #001845;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.owl-items-one .owl-carousel .owl-item img {
+    border-top-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    max-width: 120px;
+}
+
+.owl-items-two .owl-carousel .owl-item img {
+    border-top-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+    max-width: 120px;
+}
+
+.ca-vpg-faq {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #F7FBFE;
+}
+
+.ca-vpg-faq .faq-title {
+    color: #292f36;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.ca-vpg-faq .accordion .card {
+    border-radius: 0.25rem !important;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}
+
+.ca-vpg-faq .accordion .card-header {
+    margin-bottom: 0 !important;
+    border-bottom: 0 !important;
+    padding: 0;
+}
+
+.ca-vpg-faq .accordion .card-body {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.ca-vpg-faq .accordion button.btn:focus {
+    box-shadow: none;
+}
+
+.ca-vpg-faq .accordion .btn-link {
+    font-size: 20px;
+    font-weight: 600;
+    color: #292f36;
+    display: flex;
+    align-items: center;
+    padding: 12px 30px;
+}
+
+.ca-vpg-faq .accordion .btn-link:hover,
+.ca-vpg-faq .accordion .btn-link:focus,
+.ca-vpg-faq .accordion .btn-link:focus-visible,
+.ca-vpg-faq .accordion .btn-link:active {
+    text-decoration: none !important;
+}
+
+.ca-vpg-faq .accordion .btn-link.collapsed {
+    background-color: #fff;
+    color: #04a6f4;
+}
+
+.ca-vpg-faq .accordion .btn-link {
+    background-color: #04a4f4bd;
+    color: #fff;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    transition: background-color 0.5s ease;
+}
+
+.ca-vpg-faq .accordion .btn-link.collapsed .fa-angle-down {
+    transition: all .3s;
+    transform: rotate(0);
+}
+
+.ca-vpg-faq .accordion .btn-link .fa-angle-down {
+    transform: rotate(-180deg);
+}
+
+.faq-btn-wrap {
+    margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .ca-vpg-hero {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ca-vpg-hero .ca-vpg-header {
+        font-size: 32px;
+        line-height: 1.3em;
+        margin-bottom: 24px;
+    }
+
+    .ca-vpg-hero .ca-vpg-subheader {
+        font-size: 18px;
+    }
+
+    .ca-vpg-challenges {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ca-vpg-challenges .ca-vpg-challenges-header {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .ca-vpg-challenges .ca-vpg-challenges-card {
+        background-color: #FFFFFF;
+        padding: 30px 20px 30px 20px;
+        border-radius: 30px;
+    }
+
+    .ca-vpg-challenges .challenges-card-header {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .ca-vpg-solution {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .ca-vpg-solution .ca-vpg-solution-header {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .ca-vpg-solution .solution-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .ca-vpg-solution .solution-text {
+        font-size: 18px;
+    }
+
+    .ca-vpg-solution-subheader {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .ca-vpg-third-party {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .third-party-title {
+        font-size: 28px;
+    }
+
+    .third-party-title span {
+        font-size: 24px;
+    }
+
+    .ca-vpg-faq {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .mb-60 {
+        margin-bottom: 40px;
+    }
+
+    .ca-vpg-faq .faq-title {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .faq-btn-wrap {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .ca-vpg-hero {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .ca-vpg-hero .ca-vpg-header {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .ca-vpg-hero .ca-vpg-subheader {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    .hero-btn-wrap {
+        text-align: center;
+    }
+
+    .ca-vpg-hero .col-md-6:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .ca-vpg-challenges {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .challenges-flex{
+        flex-direction: column;
+    }
+
+    .ca-vpg-challenges .ca-vpg-challenges-card {
+        width: 100%;
+    }
+
+    .ca-vpg-challenges .ca-vpg-challenges-header {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .ca-vpg-challenges .col-md-4:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .ca-vpg-challenges .col-md-4:nth-of-type(2) {
+        margin-bottom: 30px;
+    }
+
+    .ca-vpg-challenges .ca-vpg-challenges-card {
+        padding: 30px 20px 30px 20px;
+        border-radius: 30px;
+    }
+
+    .ca-vpg-challenges .challenges-card-header {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .ca-vpg-solution {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .ca-vpg-solution .ca-vpg-solution-header {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+
+    .ca-vpg-solution .solution-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .ca-vpg-solution .solution-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .mb-60 {
+        margin-bottom: 40px;
+    }
+
+    .row-two .col-one {
+        order: 2;
+    }
+
+    .row-four .col-one {
+        order: 2;
+    }
+
+    .row-one .col-one,
+    .row-three .col-one,
+    .row-five .col-one {
+        margin-bottom: 30px;
+    }
+
+    .row-two .col-two,
+    .row-four .col-two {
+        margin-bottom: 30px;
+    }
+
+    .row-one,
+    .row-two,
+    .row-three,
+    .row-four,
+    .row-five {
+        margin-bottom: 60px;
+    }
+
+    .ca-vpg-solution-subheader {
+        font-size: 22px;
+    }
+
+    .ca-vpg-third-party {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .third-party-title {
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .third-party-title span {
+        font-size: 22px;
+    }
+
+    .ca-vpg-faq {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .ca-vpg-faq .faq-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .faq-btn-wrap {
+        margin-top: 28px;
+    }
+
+
+}
+
+
+/* End Template 1 CSS */
